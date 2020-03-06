@@ -1,1 +1,4 @@
-console.log('Hello world from client-side JS!')
+document.addEventListener(
+  'DOMContentLoaded',
+  () => setTimeout(() => window.scrollTo(0, 1), 1000)
+)
