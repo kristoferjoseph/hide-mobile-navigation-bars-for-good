@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +6,12 @@
   <title>Hide 'em</title>
   <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" rel="icon" type="image/x-icon">
   <style>
+    :root {
+      --theme: #3C30CE;
+      --light: #EFEFEF;
+      --dark: #222222;
+      --shade: #231C79;
+    }
     * {
       margin: 0;
       padding: 0;
@@ -19,103 +24,176 @@
     body {
      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     }
+    .min-height-100 {
+      min-height: 100%;
+    }
+    .display-flex {
+      display: flex;
+    }
+    .flex-direction-column {
+      flex-direction: column;
+    }
+    .flex-grow1 {
+      flex-grow: 1;
+    }
+    .position-sticky {
+      position: sticky;
+    }
+    .top0 {
+      top: 0;
+    }
+    .color-light {
+      color: var(--light);
+    }
+    .color-dark {
+      color: var(--dark);
+    }
+    .background-color-theme {
+      background-color: var(--theme);
+    }
+    .background-color-shade {
+      background-color: var(--shade);
+    }
+    .padding0 {
+      padding: 1rem;
+    }
+    .padding-top-1 {
+      padding-top: 0.5rem;
+    }
+    .padding-right0 {
+      padding-right: 1rem;
+    }
+    .padding-bottom-1 {
+      padding-bottom: 0.5rem;
+    }
+    .padding-left0 {
+      padding-left: 1rem;
+    }
+    .font-size1 {
+      font-size: 1.5rem;
+    }
   </style>
 </head>
 <body>
-<div>
+<div
+  class="
+    display-flex
+    flex-direction-column
+    min-height-100
+  "
+>
   <header
-    style="
-     position: sticky;
-     top: 0;
-     font-size: 1.5rem;
-     padding: 0.5rem; 1rem;
-     color: #EFEFEF;
-     background-color: #0088CE;
+    class="
+      position-sticky
+      top0
+      padding-top-1
+      padding-right0
+      padding-bottom-1
+      padding-left0
+      font-size1
+      color-light
+      background-color-theme
     "
   >
    Header
   </header>
   <section
-   style="
-    padding: 1rem;
-    box-shadow: 0 2px 2px rgba(6,6,6,0.666);
+   class="
+    padding0
+    flex-grow1
    "
   >
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p><p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p><p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p><p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    v
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
-    v
-    <p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p><p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>v<p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p><p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p><p>
-      Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
-    </p>
+    <article>
+      <h3>Heading</h3>
+      <p>
+        Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
+      </p>
+      <footer>
+        <h6>footing</h6>
+      </footer>
+    </article>
+
+
+    <article>
+      <h3>Heading</h3>
+      <p>
+        Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
+      </p>
+      <footer>
+        <h6>footing</h6>
+      </footer>
+    </article>
+
+    <article>
+      <h3>Heading</h3>
+      <p>
+        Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
+      </p>
+      <footer>
+        <h6>footing</h6>
+      </footer>
+    </article>
+
+    <article>
+      <h3>Heading</h3>
+      <p>
+        Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
+      </p>
+      <footer>
+        <h6>footing</h6>
+      </footer>
+    </article>
+
+    <article>
+      <h3>Heading</h3>
+      <p>
+        Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
+      </p>
+      <footer>
+        <h6>footing</h6>
+      </footer>
+    </article>
+
+    <article>
+      <h3>Heading</h3>
+      <p>
+        Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
+      </p>
+      <footer>
+        <h6>footing</h6>
+      </footer>
+    </article>
+
+    <article>
+      <h3>Heading</h3>
+      <p>
+        Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
+      </p>
+      <footer>
+        <h6>footing</h6>
+      </footer>
+    </article>
+
+    <article>
+      <h3>Heading</h3>
+      <p>
+        Ipsum at laboriosam asperiores iure debitis libero, minima quod Nihil veniam praesentium ipsam ut facilis At delectus repellendus explicabo illo quae? Error blanditiis voluptas architecto aperiam repellendus quasi minima assumenda?
+      </p>
+      <footer>
+        <h6>footing</h6>
+      </footer>
+    </article>
+
   </section>
+  <footer
+   class="
+    padding0
+    color-light
+    background-color-shade
+   "
+  >
+    Footer
+  </footer>
   </div>
-  <script type="module" src="index.js"></script>
 </body>
 </html>
